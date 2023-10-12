@@ -98,7 +98,7 @@ p {
     font-family: 'Times New Roman', Times, serif;
 }
 
-.introduction {
+.content {
     display: flex;
     margin-left: 50px;
     flex-wrap: wrap;
