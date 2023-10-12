@@ -1,6 +1,8 @@
 :root {
     --blue: #A7C7E7;
     --grey: #303030;
+    --big-font: 50px;
+    --header-color: #315a7d;
 }
 
 * {
@@ -37,13 +39,14 @@ a {
 
 .name {
     background-color: var(--blue);
-    padding: 5px 10px 5px 40px;
+    padding: 1px 15px 1px 55px;
+    margin-top: 10px;
     position: relative;
-    top: 10px;
-    font-size: 40px;
+    font-size: var(--big-font);
     text-align: right;
     float: left;
-    width: 250px;
+    width: 300px;
+    color: var(--grey);
 }
 
 .hero-image img {
@@ -62,12 +65,42 @@ a {
     bottom: 80px;
     right: 60px;
     font-size: 30px;
+    columns: var(--grey);
 }
 
-h1 {
-    color: var(--grey);
+main div {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.float-left {
+    float: left;
+    margin: 0px 10px 0px 70px;
+    width: 200px;
+    font-size: var(--big-font);
+    text-align: right;
+    padding: 20px 0px 20px 0px;
+    color: var(--header-color);
+}
+
+#about-me img {
+    width: 300px;
+    height: 300px;
+    border-left: 4px solid var(--header-color);
+    padding-left: 50px;
+    display: inline;
 }
 
 p {
-    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.introduction {
+    display: flex;
+    margin-left: 50px;
+    flex-wrap: wrap;
+    width: 50%;
 }
