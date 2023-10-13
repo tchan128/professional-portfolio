@@ -1,5 +1,5 @@
 :root {
-    --blue: #A7C7E7;
+    --blue: #6699CC;
     --grey: #303030;
     --big-font: 50px;
     --header-color: #315a7d;
@@ -99,24 +99,55 @@ p {
     font-weight: lighter;
     margin-right: 25px;
     font-size: 18px;
+    padding: 8px;
 }
 
-.content {
+.introduction {
+    margin-top: 0px;
     display: flex;
     margin-left: 50px;
+    margin-bottom: 20px;
     flex-wrap: wrap;
     width: 50%;
 }
 
-#code-refactor img {
-    width: 80%;
-    height: 300px;
-    background-size: cover;
-    object-fit: cover;
+.projects {
     border-left: 4px solid var(--header-color);
-    padding-left: 50px;
-    display: inline;
-    opacity: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+#code-refactor {
+    border: 5px solid var(--blue);
+    margin-left: 50px;
+    width: 1079px;
+    height: 470px;
+    object-fit: cover;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-box {
+    background-color: var(--blue);
+    width: 170px;
+    height: 80px;
+    font-size: 20px;
+    position: relative;
+    bottom: 200px;
+    left: 55px;
+    padding: 5px 1px 5px 15px;
+    color: var(--grey);
+}
+.text-box h3 {
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 16px;
+    padding-bottom: 10px;
 }
 
 footer a {
@@ -140,3 +171,11 @@ footer a {
 #work, #contact-me, #about-me {
     padding: 20px 0px;
 }
+
+#code-refactor:hover{
+    filter: contrast(120%);
+}
+
+/* @media screen and {min-width: 1024px
+    
+} */
