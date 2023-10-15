@@ -28,7 +28,7 @@ nav {
     padding: 25px 20px 20px;
 }
 
-a {
+nav a {
     color: var(--blue);
     text-decoration: none;
     border-bottom: 3px solid;
@@ -79,7 +79,7 @@ main div {
 .float-left {
     float: left;
     margin: 0px 13px 0px 70px;
-    width: 200px;
+    width: 10%;
     font-size: var(--big-font);
     text-align: right;
     padding: 20px 0px 20px 0px;
@@ -118,15 +118,32 @@ p {
     width: 80%;
 }
 
-#code-refactor {
+#main-project {
     border: 5px solid var(--blue);
     margin-left: 50px;
-    width: 1079px;
+    width: 1080px;
     height: 470px;
     object-fit: cover;
     background-size: cover;
     display: flex;
     flex-wrap: wrap;
+}
+
+.secondary-project {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 80%;
+}
+
+#secondary-project {
+    border: 5px solid var(--blue);
+    margin-left: 50px;
+    margin-top: 30px;
+    width: 510px;
+    height: 300px;
+    object-fit: cover;
+    background-size: cover;
 }
 
 .text-box {
@@ -140,6 +157,7 @@ p {
     padding: 5px 1px 5px 15px;
     color: var(--grey);
 }
+
 .text-box h3 {
     padding-top: 15px;
     font-weight: bold;
@@ -163,6 +181,7 @@ footer a {
     align-items: flex-end;
     border-left: 4px solid var(--header-color);
     height: 120px;
+    width: 80%;
     align-items: center;
     position: relative;
     top: 20px;
@@ -172,7 +191,7 @@ footer a {
     padding: 20px 0px;
 }
 
-#code-refactor:hover{
+.projects img:hover{
     filter: contrast(120%);
 }
 
