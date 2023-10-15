@@ -18,12 +18,12 @@
             <a href="#resume">Resume</a>
         </nav>
     </header>
-    <div class="hero-image">
+    <section class="hero-image">
         <img src="./Assets/hero-image.jpg" alt="Gradient of blue strips laid out horizontally">
         <h2 class="subtitle">Welcome to my page!</h2>
-    </div>
+    </section>
     <main>
-        <div id="about-me">
+        <section class="about-me" id="about-me">
             <h1 class="float-left">About Me</h1>
             <img src="./Assets/Portriat.jpg" alt="A head shot of Tiffany of her smiling in a cafe">
             <div class="introduction">
@@ -43,32 +43,38 @@
                     miniature models. Lastly, I enjoy listening to music and watching sitcoms and TV shows on my off time!
                 </p>
             </div>
-        </div>
-        <div id="work">
+        </section>
+        <section id="work">
             <h1 class="float-left">Work</h1>
-            <div class="projects">
-                <a href="https://tchan128.github.io/module01-challenge-accessibility/"><img id="main-project" src="./Assets/code-refactor.jpg" 
-                    alt="A cartoon of a man sitting in front of computer with a graphic of scissors and a webpage."></a>
-                <!-- <div class="text-box">
-                    <h3>Code Refactor</h3>
-                    <h4>HTML/CSS</h4>
-                </div> -->
-               <div class="secondary-project">
-                    <a href="https://tchan128.github.io/prework-study-guide/"><img id="secondary-project" src="./Assets/study-guide.jpg" 
-                        alt="A graphic of a girl sitting on top of books with computer."></a>
-                    <!-- <div class="text-box">
-                        <h3>Study Guide</h3>
-                        <h4>HTML/CSS/Javascript</h4>
-                    </div> -->
-                    <a href=""><img id="secondary-project" src="./Assets/first-website.jpg" 
-                        alt="A graphic of a phone and a computer next to each other"></a>
-                    <!-- <div class="text-box">
-                        <h3>Study Guide</h3>
-                        <h4>HTML/CSS/Javascript</h4>
-                    </div> -->
-                </div>
-            </div> 
-        </div>
+            <section class="work-container">
+                <section class="main-project">
+                    <a href="https://tchan128.github.io/module01-challenge-accessibility/"><img src="./Assets/code-refactor.jpg" 
+                        alt="A cartoon of a man sitting in front of computer with a graphic of scissors and a webpage."></a>
+                    <div class="refactor-text-block">
+                        <h3>Code Refactor</h3>
+                        <h4>HTML/CSS</h4>
+                    </div>
+                </section>
+                <section class="secondary-project">
+                    <section id="study-guide">
+                        <a href="https://tchan128.github.io/prework-study-guide/"><img src="./Assets/study-guide.jpg" 
+                            alt="A graphic of a girl sitting on top of books with computer."></a>
+                        <div class="sg-text-block">
+                            <h3>Study Guide</h3>
+                            <h4>HTML/CSS/Javascript</h4>
+                        </div>
+                    </section>
+                    <section id="first-website">
+                        <a href=""><img src="./Assets/first-website.jpg" 
+                            alt="A graphic of a phone and a computer next to each other"></a>
+                        <div class="sg-text-block">
+                            <h3>First Website</h3>
+                            <h4>HTML/CSS/Javascript</h4>
+                        </div>
+                    </section>
+                </section>
+            </section>
+    </section>
     </main>
     <footer id="contact-me">
         <h1 class="float-left">Contact Me</h1>

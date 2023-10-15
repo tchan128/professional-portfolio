@@ -13,7 +13,7 @@
 }
 
 body {
-    background-color: white;
+    background-color: #E8EEFC;
 }
 
 header {
@@ -25,7 +25,8 @@ header {
 nav {
     margin-right: 30px;
     float:right;
-    padding: 25px 20px 20px;
+    padding: 15px 20px 20px;
+    display: flex;
 }
 
 nav a {
@@ -68,30 +69,41 @@ nav a {
     columns: var(--grey);
 }
 
-main div {
-    margin-top: 30px;
+main {
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
 }
 
 .float-left {
     float: left;
-    margin: 0px 13px 0px 70px;
-    width: 10%;
+    margin: 5px 15px 20px 70px;
+    width: 15%;
     font-size: var(--big-font);
     text-align: right;
-    padding: 20px 0px 20px 0px;
     color: var(--header-color);
 }
 
-#about-me img {
+.about-me {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+}
+
+.about-me img {
     width: 300px;
     height: 300px;
     border-left: 4px solid var(--header-color);
     padding-left: 50px;
     display: inline;
+}
+
+.introduction {
+    display: flex;
+    margin-left: 50px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 51%;
 }
 
 p {
@@ -102,62 +114,105 @@ p {
     padding: 8px;
 }
 
-.introduction {
-    margin-top: 0px;
-    display: flex;
-    margin-left: 50px;
-    margin-bottom: 20px;
-    flex-wrap: wrap;
-    width: 50%;
-}
-
-.projects {
-    border-left: 4px solid var(--header-color);
-    display: flex;
-    flex-wrap: wrap;
-    width: 80%;
-}
-
-#main-project {
-    border: 5px solid var(--blue);
-    margin-left: 50px;
-    width: 1467px;
-    height: 610px;
-    object-fit: cover;
-    background-size: cover;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.secondary-project {
-    display: flex;
-    flex-wrap: wrap;
+#work {
+    width: 100%;
+    /* display: flex;
     flex-direction: row;
+    flex-wrap: wrap; */
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
-#secondary-project {
+.work-container {
+    border-left: 4px solid var(--header-color);
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.main-project {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 470px;
+}
+
+.main-project img {
     border: 5px solid var(--blue);
     margin-left: 50px;
-    margin-top: 30px;
-    width: 705px;
-    height: 431px;
+    width: 90.7%;
+    height: 70%;
     object-fit: cover;
     background-size: cover;
+    position: relative;
 }
 
-.text-box {
+.refactor-text-block {
     background-color: var(--blue);
     width: 170px;
     height: 80px;
     font-size: 20px;
     position: relative;
-    bottom: 200px;
-    left: 55px;
+    left: 50px;
+    bottom: 360px;
     padding: 5px 1px 5px 15px;
     color: var(--grey);
 }
 
-.text-box h3 {
+.refactor-text-block h3 {
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+.secondary-project {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    height: 210px;
+    justify-content: space-around;
+}
+
+#study-guide {
+    margin-left: 50px;
+    width: 50%;
+    height: 20%;
+}
+
+#study-guide img {
+    border: 5px solid var(--blue);
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    background-size: cover;
+}
+
+#first-website {
+    margin-left: 50px;
+    width: 50%;
+    height: 20%;
+}
+
+#first-website img {
+    border: 5px solid var(--blue);
+    width: 100%; 
+    height: 200px;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.sg-text-block {
+    background-color: var(--blue);
+    width: 170px;
+    height: 80px;
+    font-size: 20px;
+    position: relative;
+    bottom: 136px;
+    padding: 5px 1px 5px 15px;
+    color: var(--grey);
+}
+
+.sg-text-block h3 {
     padding-top: 15px;
     font-weight: bold;
 }
@@ -165,6 +220,11 @@ p {
 h4 {
     font-size: 16px;
     padding-bottom: 10px;
+}
+
+footer {
+    width: 100%;
+    padding-top: 30px;
 }
 
 footer a {
@@ -180,20 +240,23 @@ footer a {
     align-items: flex-end;
     border-left: 4px solid var(--header-color);
     height: 120px;
-    width: 80%;
+    width: 185;
     align-items: center;
-    position: relative;
     top: 20px;
 }
 
-#work, #contact-me, #about-me {
-    padding: 20px 0px;
-}
-
-.projects img:hover{
+.work-container img:hover{
     filter: contrast(120%);
 }
 
-/* @media screen and {min-width: 1024px
-    
-} */
+@media screen and (min-width: 1528px) {
+    p {
+        font-size: ;
+    }
+}
+
+@media screen and (max-width: 1528px) {
+    .float-left{
+        width: 13%;
+    }
+}
