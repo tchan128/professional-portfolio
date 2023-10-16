@@ -48,10 +48,19 @@ This portfolio was built from scratch, however the design of the portfolio is de
 
 In addition to that, some websites that helped with the build of this portfolio includes:
 
-The README template was found here: https://github.com/othneildrew/Best-README-Template
+- CSS Media Query Breakpoint: https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-standard-resolutions-and-more/
+- Flex box Usage: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+- Stack Flow blog posts that helps answers various questions and issues while styling elements in project
 
 The images from the portfolio are found here:
 
+- Hero Image: https://www.123freevectors.com/dark-blue-striped-background-113815/
+- Code Refactor Project: https://www.shortcut.com/blog/how-to-know-when-its-time-to-refactor-your-software-code
+- Study Guide Project: https://www.freepik.com/vectors/adult-learning
+- First Website Project: https://www.computerworld.com/article/3622366/the-best-progressive-web-apps-for-productivity.html
+- README Icon: https://www.flaticon.com/free-icon/professional-portfolio_3476457
+
+The README template was found here: https://github.com/othneildrew/Best-README-Template
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

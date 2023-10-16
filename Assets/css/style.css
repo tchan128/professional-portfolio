@@ -75,11 +75,11 @@ main {
 
 .float-left {
     float: left;
-    margin: 5px 15px 20px 70px;
-    width: 15%;
-    font-size: var(--big-font);
+    margin: 5px 15px 20px 5%;
+    width: 10%;
     text-align: right;
     color: var(--header-color);
+    font-size: 3vw;
 }
 
 #about-me {
@@ -93,7 +93,7 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
     margin-bottom: 30px;
-    width: 70%;
+    width: 80%;
 }
 
 .about-me img {
@@ -224,11 +224,12 @@ h4 {
 footer {
     width: 100%;
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 footer a {
     color: var(--header-color);
-    font-size: 25px;
+    font-size: 1.5vw;
 }
 
 .contact-info {
@@ -236,12 +237,10 @@ footer a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    align-items: flex-end;
     border-left: 4px solid var(--header-color);
     height: 120px;
-    width: 185;
+    width: 75%;
     align-items: center;
-    top: 20px;
 }
 
 .work-container img:hover{
@@ -254,7 +253,7 @@ footer a {
     }
 }
 
-@media screen and (max-width: 1528px) {
+@media screen and (max-width: 1275px) {
     .float-left{
         width: 13%;
     }
