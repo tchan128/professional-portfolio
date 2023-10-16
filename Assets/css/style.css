@@ -27,6 +27,9 @@ nav {
     float:right;
     padding: 15px 20px 20px;
     display: flex;
+    position: relative;
+    bottom: 80px;
+    margin-bottom: -80px;
 }
 
 nav a {
@@ -253,3 +256,34 @@ footer a {
     }
 }
 
+@media screen and (max-width: 850px) {
+    p {
+        font-size: 15px;
+    }
+    .float-left {
+        width: 90%;
+        margin: 5px 15px 20px 50px;
+        text-align: left;
+        font-size: 180%;
+    }
+    .about-me, .work-container, .contact-info{
+        margin-left: 50px;
+    }
+    .contact-info {
+        height: 20px;
+    }
+    nav {
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+        bottom: 0px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+        padding: 0px;
+        background-color: var(--grey);
+        text-align: center;
+    }
+    nav a {
+        border: none;
+    }
+}
