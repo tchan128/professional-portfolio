@@ -253,8 +253,3 @@ footer a {
     }
 }
 
-@media screen and (max-width: 1275px) {
-    .float-left{
-        width: 13%;
-    }
-}
