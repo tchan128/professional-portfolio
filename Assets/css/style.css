@@ -248,12 +248,12 @@ footer a {
 .work-container img:hover{
     filter: contrast(120%);
 }
-
+/* 
 @media screen and (min-width: 1528px) {
     p {
         font-size: ;
     }
-}
+} */
 
 @media screen and (max-width: 1528px) {
     .float-left{
