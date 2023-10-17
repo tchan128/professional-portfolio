@@ -102,14 +102,14 @@ main {
 .about-me img {
     width: 300px;
     height: 300px;
-    padding-left: 50px;
+    padding-left: 5%;
     display: inline;
     padding-bottom: 10px;
 }
 
 .introduction {
     display: flex;
-    margin-left: 50px;
+    margin-left: 5%;
     flex-wrap: wrap;
     flex-direction: row;
     width: 60%;
@@ -130,7 +130,7 @@ p {
 }
 
 .work-container {
-    padding: 0px 50px;
+    padding: 0px 8% 0px 4% ;
     border-left: 4px solid var(--header-color);
     display: flex;
     flex-direction: row;
@@ -232,7 +232,7 @@ footer {
 
 footer a {
     color: var(--header-color);
-    font-size: 1.5vw;
+    font-size: 2vw;
 }
 
 .contact-info {
