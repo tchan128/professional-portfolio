@@ -250,7 +250,7 @@ footer a {
     filter: contrast(120%);
 }
 
-@media screen and (max-width: 1429px) {
+@media screen and (max-width: 1246px) {
     .introduction {
         width: 100%;
     }
@@ -277,9 +277,9 @@ footer a {
         display: flex;
         width: 100%;
         bottom: 0px;
-        margin-bottom: 0px;
+        padding-bottom: 20px;
         margin-right: 0px;
-        padding: 0px;
+        padding: 0px 0px 15px 0px;
         background-color: var(--grey);
         text-align: center;
     }
@@ -289,5 +289,10 @@ footer a {
     .about-me img {
         width: 50%;
         height: 100%;
+    }
+    .name {
+        width: 100%;
+        padding: 0;
+        text-align: center;
     }
 }
